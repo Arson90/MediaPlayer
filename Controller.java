@@ -40,7 +40,7 @@ public class Controller implements Initializable{
     @FXML
     public void handleButtonClick(){
         FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("C:\\Users\\Arek\\Music"));
+        fileChooser.setInitialDirectory(new File("C:\\Users\\YOUR_NAME\\Music"));
         fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("Video Files",
                 "*.wav", "*.mp3", "*.mp4"));
         File file = fileChooser.showOpenDialog(null);
